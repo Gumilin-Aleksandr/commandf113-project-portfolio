@@ -2,21 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-js-hw-11</title>
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Homework 11</h1>
+    <load src="./partials/header.html" icon-path="./images/icons.svg#logo" />
 
-    <form id="search-form">
-      <input type="text" id="search-input" placeholder="Search images..." />
-      <button type="submit">Search</button>
-    </form>
+    <main>
+      <load src="./partials/hero.html" />
+      <load src="./partials/about-me.html" />
+      <load src="./partials/benefits.html" />
+      <load src="./partials/projects.html" />
+      <load src="./partials/faq.html" />
+      <load src="./partials/covers.html" />
+      <load src="./partials/reviews.html" />
+    </main>
 
-    <div id="loader" class="hidden"></div>
-    <div id="gallery" class="gallery"></div>
+    <load src="./partials/work-together.html" />
+    <load src="./partials/modal.html" />
 
-    <script type="module" src="./main.js"></script>
+    <script type="module" src="./main.js" defer></script>
   </body>
 </html>
