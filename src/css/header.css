@@ -43,6 +43,7 @@
 }
 
 .header__menu-button {
+  color: #fafafa;
   margin-left: auto;
   background-color: transparent;
   display: flex;
