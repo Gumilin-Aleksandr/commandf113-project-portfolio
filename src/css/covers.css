@@ -3,6 +3,7 @@
 #audio {
   position: absolute;
   z-index: 999;
+  opacity: 0.5;
 }
 
 .covers-content {
