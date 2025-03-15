@@ -43,7 +43,7 @@ const swiper = new Swiper('.swiper.about-me__skills', {
   },
   breakpoints: {
     768: { slidesPerView: 3 },
-    1440: { slidesPerView: 5 },
+    1440: { slidesPerView: 6 },
   },
   keyboard: {
     enabled: true,
@@ -51,6 +51,6 @@ const swiper = new Swiper('.swiper.about-me__skills', {
   },
 });
 
-refs.nextSkillsButton.addEventListener('mousedown', () => {
+refs.nextSkillsButton.addEventListener('click', () => {
   setTimeout(() => refs.nextSkillsButton.blur(), 0);
 });
