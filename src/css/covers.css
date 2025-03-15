@@ -6,6 +6,10 @@
   opacity: 0.5;
 }
 
+#audio:hover {
+  opacity: 0.9;
+}
+
 .covers-content {
   overflow: hidden;
   position: relative;
