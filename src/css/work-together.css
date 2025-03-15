@@ -1,4 +1,4 @@
-/* .work-together {
+.work-together {
   padding-top: 32px;
   padding-bottom: 32px;
   background-image: url(./images/img/footer-effect1.png-min.png);
@@ -158,12 +158,12 @@
 
 .footer-scroll-up-link {
   margin-top: 0;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  
+
   padding: 0 16px;
   height: 44px;
   border: 2px solid #595959;
@@ -313,4 +313,4 @@
   .scroll-up-link-wrapper {
     width: 956px;
   }
-} */
+}
