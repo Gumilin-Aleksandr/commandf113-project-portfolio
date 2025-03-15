@@ -43,7 +43,7 @@ const swiper = new Swiper('.swiper.about-me__skills', {
   },
   breakpoints: {
     768: { slidesPerView: 3 },
-    1440: { slidesPerView: 6 },
+    1440: { slidesPerView: 5 },
   },
   keyboard: {
     enabled: true,
