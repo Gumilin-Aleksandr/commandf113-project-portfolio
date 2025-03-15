@@ -158,12 +158,12 @@
 
 .footer-scroll-up-link {
   margin-top: 0;
-  /* align-self: flex-end; */
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  /* width: 44px; */
+  
   padding: 0 16px;
   height: 44px;
   border: 2px solid #595959;
